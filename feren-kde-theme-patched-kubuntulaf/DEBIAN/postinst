@@ -1,0 +1,5 @@
+#!/bin/bash
+
+if [ -f /usr/share/plasma/look-and-feel/org.kubuntu.desktop/contents/layouts/org.kde.plasma.desktop-layout.js ]; then
+    /bin/rm -f /usr/share/plasma/look-and-feel/org.kubuntu.desktop/contents/layouts/org.kde.plasma.desktop-layout.js
+fi
